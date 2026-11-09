@@ -1,1 +1,2 @@
-
+### JetBrains template
+##  git config --global core.excludesfile .gitignore
