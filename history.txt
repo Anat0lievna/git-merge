@@ -1,0 +1,21 @@
+  997  cd ITC-GIT/Work/040926-ptm
+  998  ls -al
+  999  git clone git@github.com:Anat0lievna/git-merge.git
+ 1000  ls -al
+ 1001  cd git-merge/
+ 1002  git status 
+ 1003  git checkout -b feature
+ 1004  nano README.md 
+ 1005  git branch -v
+ 1006  nano .gitignore 
+ 1007  git status 
+ 1008  git add .
+ 1009  git commit -m "Changing 2-lines in README.md and gitignore"
+ 1010  git push -u origin feature
+ 1011  git commit --amend -m "Changing 2-lines in README.md and gitignore amend"
+ 1012  git branch -v
+ 1013  git log --oneline 
+ 1014  git checkout main 
+ 1015  git merge feature 
+ 1016  history | grep 'git '
+ 1017  history
